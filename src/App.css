@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.light {
+  background-color: rgb(255, 255, 255);
+}
+.dark {
+  background-color: rgb(43, 40, 40);
+  color: white;
+}
+.jokebox {
+  border: 2px solid gray;
+  min-width: 40vw;
+  min-height: 40vh;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: rgb(5, 5, 5) 0px 3px 8px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+button {
+  margin: 30px;
+  padding: 15px;
+  width: 100px;
+}
